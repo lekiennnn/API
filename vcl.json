@@ -1,13 +1,30 @@
 {
-    "name": "John Doe",
-    "age": 30,
-    "email": "john@example.com",
-    "address": {
-      "street": "123 Main St",
-      "city": "Anytown",
-      "country": "USA"
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "age": 25,
+      "email": "alice@example.com",
+      "address": {
+        "street": "456 Elm St",
+        "city": "Somewhere",
+        "country": "Canada"
+      },
+      "tags": ["developer", "hiker"],
+      "isActive": true
     },
-    "tags": ["developer", "gamer", "musician"],
-    "isActive": true
-  }
-  
+    {
+      "id": 2,
+      "name": "Bob",
+      "age": 30,
+      "email": "bob@example.com",
+      "address": {
+        "street": "789 Oak St",
+        "city": "Nowhere",
+        "country": "Australia"
+      },
+      "tags": ["designer", "surfer"],
+      "isActive": false
+    }
+  ]
+}
